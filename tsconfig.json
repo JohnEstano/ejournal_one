@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",       // allow "@/…" imports
+    "paths": {
+      "@/*": ["src/*"]    // map "@/foo" → "src/foo"
+    },
+    "allowJs": true       // so TS won’t complain about your .js/.jsx files
+  },
+  "include": ["src"]
+}
