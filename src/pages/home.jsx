@@ -1,14 +1,13 @@
-import { useState } from 'react'
+
 import '../App.css'
 import Lanyard from '../components/Lanyard'
 import { DockNav } from "@/components/dock-nav"
 import FadeContent from '../components/FadeContent'
-import AnimatedContent from '../components/AnimatedContent'
 import { ThemeProvider } from "@/components/theme-provider"
 
 
-function App() {
-  const [count, setCount] = useState(0)
+function Home() {
+
 
   return (
     <>
@@ -18,6 +17,9 @@ function App() {
         <div>
 
           <Lanyard position={[0, 0, 20]} gravity={[0, -30, 0]} fov={[10]} />
+
+
+
 
 
           <div className="flex items-center justify-center h-screen w-full">
@@ -41,4 +43,4 @@ function App() {
   )
 }
 
-export default App
+export default Home;

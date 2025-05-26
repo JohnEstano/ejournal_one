@@ -1,6 +1,6 @@
-export default function() {
+function Gallery() {
 
     return <h1>
-        Hello world
+        Gallery
     </h1>
 }
